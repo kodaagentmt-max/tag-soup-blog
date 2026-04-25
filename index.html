@@ -6,137 +6,158 @@
   <title>Tag Soup — Wild Game & Outdoor Recipes</title>
   <meta name="description" content="Daily wild game recipes, outdoor cooking tips, and game-day meals from Tag Soup.">
   <link rel="alternate" type="application/rss+xml" title="Tag Soup RSS" href="rss.xml">
-  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #1a0f00; --card: #2a1a00; --ember: #e87820; --gold: #f5c518; --white: #fff; --dim: #c4a97a; --text: #f0e0c0; }
+    :root { --bg: #0f0a04; --surface: #1a1108; --card: #251808; --border: #3a2510; --accent: #e87820; --gold: #f5c518; --text: #f0e0c0; --muted: #9a8060; --white: #fff; }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: 'Roboto Slab', serif; line-height: 1.7; min-height: 100vh; }
-    a { color: var(--ember); text-decoration: none; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; }
     a:hover { color: var(--gold); }
-    .top-bar { background: var(--card); border-bottom: 2px solid var(--ember); padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; }
-    .top-bar .brand { font-family: 'Special Elite', cursive; font-size: 18px; color: var(--ember); }
-    .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; }
-    .hero { text-align: center; padding: 50px 30px; background: linear-gradient(180deg, #2a1a00 0%, #1a0f00 100%); border-bottom: 3px solid var(--ember); margin-bottom: 40px; }
-    .hero .logo { font-size: 48px; margin-bottom: 12px; }
-    .hero h1 { font-family: 'Special Elite', cursive; font-size: 48px; color: var(--ember); margin-bottom: 8px; letter-spacing: 2px; }
-    .hero .tagline { font-size: 18px; color: var(--gold); font-family: 'Special Elite', cursive; }
-    .hero .tagline span { display: block; font-size: 13px; color: var(--dim); margin-top: 4px; letter-spacing: 1px; }
-    .featured-recipe { background: var(--card); border: 2px solid var(--ember); border-radius: 12px; overflow: hidden; margin-bottom: 40px; }
-    .featured-label { background: var(--ember); color: var(--bg); font-family: 'Special Elite', cursive; font-size: 14px; padding: 8px 20px; display: inline-block; letter-spacing: 2px; text-transform: uppercase; }
-    .featured-body { display: grid; grid-template-columns: 1fr 1fr; }
-    .featured-img { background: #3a2500; min-height: 280px; display: flex; align-items: center; justify-content: center; font-size: 60px; }
-    .featured-content { padding: 30px; }
-    .featured-content .tag { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; color: var(--ember); margin-bottom: 8px; }
-    .featured-content h2 { font-family: 'Special Elite', cursive; font-size: 26px; color: var(--gold); margin-bottom: 12px; line-height: 1.3; }
-    .featured-content .meta { font-size: 11px; color: var(--dim); margin-bottom: 16px; }
-    .featured-content .excerpt { font-size: 14px; color: var(--text); line-height: 1.7; margin-bottom: 20px; }
-    .featured-content .read-btn { background: var(--ember); color: var(--bg); padding: 10px 24px; border-radius: 5px; font-weight: 700; font-size: 13px; display: inline-block; }
-    .featured-content .read-btn:hover { background: var(--gold); color: var(--bg); }
-    .section-title { font-family: 'Special Elite', cursive; font-size: 22px; color: var(--ember); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid var(--card); }
-    .posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-bottom: 40px; }
-    .post-card { background: var(--card); border: 1px solid #3a2500; border-radius: 8px; overflow: hidden; transition: all 0.2s; }
-    .post-card:hover { border-color: var(--ember); transform: translateY(-3px); }
-    .post-thumb { height: 180px; background: #3a2500; display: flex; align-items: center; justify-content: center; font-size: 50px; overflow: hidden; }
+    img { max-width: 100%; }
+
+    /* TOPBAR */
+    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 40px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .topbar-brand { display: flex; align-items: center; gap: 10px; }
+    .topbar-brand img { height: 42px; width: auto; }
+    .topbar-brand .name { font-weight: 700; font-size: 17px; color: var(--white); letter-spacing: 0.5px; }
+    .topbar-brand .name span { color: var(--accent); }
+    .topbar-right { display: flex; align-items: center; gap: 16px; }
+    .topbar-right a { font-size: 13px; font-weight: 500; color: var(--muted); }
+    .topbar-right a:hover { color: var(--accent); }
+    .btn-rss { background: var(--accent); color: #000; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 4px; }
+
+    /* HERO */
+    .hero { background: linear-gradient(135deg, var(--surface) 0%, #0f0804 100%); border-bottom: 1px solid var(--border); padding: 70px 40px; text-align: center; }
+    .hero-logo { height: 80px; margin-bottom: 20px; border-radius: 16px; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: 52px; font-weight: 700; color: var(--white); letter-spacing: -1px; margin-bottom: 8px; }
+    .hero h1 em { color: var(--accent); font-style: italic; }
+    .hero p { font-size: 17px; color: var(--muted); font-weight: 400; }
+
+    /* CONTAINER */
+    .container { max-width: 1100px; margin: 0 auto; padding: 50px 40px; }
+
+    /* SECTION HEADER */
+    .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 14px; }
+    .section-head h2 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--white); }
+    .section-head a { font-size: 13px; color: var(--muted); }
+
+    /* FEATURED */
+    .featured { background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-bottom: 50px; display: grid; grid-template-columns: 1fr 1fr; }
+    .featured-img { background: #2a1a08; min-height: 300px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .featured-img img { width: 100%; height: 100%; object-fit: cover; }
+    .featured-content { padding: 36px; display: flex; flex-direction: column; justify-content: center; }
+    .featured-tag { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin-bottom: 12px; display: block; }
+    .featured-content h2 { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; color: var(--white); line-height: 1.3; margin-bottom: 14px; }
+    .featured-content .meta { font-size: 12px; color: var(--muted); margin-bottom: 16px; }
+    .featured-content p { font-size: 15px; color: var(--muted); line-height: 1.8; margin-bottom: 24px; }
+    .featured-btn { display: inline-block; background: var(--accent); color: #000; font-size: 13px; font-weight: 700; padding: 10px 22px; border-radius: 5px; width: fit-content; }
+    .featured-btn:hover { background: var(--gold); color: #000; }
+
+    /* CATEGORIES */
+    .cat-strip { display: flex; gap: 10px; margin-bottom: 40px; flex-wrap: wrap; }
+    .cat-btn { background: var(--card); border: 1px solid var(--border); color: var(--accent); padding: 7px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+    .cat-btn:hover { background: var(--accent); color: #000; }
+
+    /* POST GRID */
+    .posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+    .post-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: all 0.2s; }
+    .post-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .post-thumb { height: 180px; background: #2a1a08; display: flex; align-items: center; justify-content: center; font-size: 48px; overflow: hidden; }
     .post-thumb img { width: 100%; height: 100%; object-fit: cover; }
     .post-body { padding: 18px; }
-    .post-tag { font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--ember); margin-bottom: 8px; display: block; }
-    .post-title { font-size: 16px; color: var(--gold); margin-bottom: 8px; line-height: 1.4; font-weight: 700; display: block; }
-    .post-excerpt { font-size: 12px; color: var(--dim); margin-bottom: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; }
-    .post-meta { font-size: 10px; color: var(--dim); }
-    .category-strip { display: flex; gap: 10px; margin-bottom: 30px; flex-wrap: wrap; }
-    .cat-btn { background: var(--card); border: 1px solid var(--ember); color: var(--ember); padding: 7px 16px; border-radius: 20px; font-size: 12px; font-family: 'Special Elite', cursive; }
-    .cat-btn:hover { background: var(--ember); color: var(--bg); }
-    footer { text-align: center; padding: 40px; border-top: 1px solid var(--card); color: var(--dim); font-size: 13px; }
-    .rss-btn { background: rgba(245,197,24,0.1); border: 1px solid var(--gold); color: var(--gold); padding: 5px 12px; font-size: 11px; border-radius: 3px; }
+    .post-tag { font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent); font-weight: 700; margin-bottom: 6px; display: block; }
+    .post-title { font-size: 15px; font-weight: 600; color: var(--white); line-height: 1.4; display: block; margin-bottom: 8px; }
+    .post-excerpt { font-size: 12px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; margin-bottom: 8px; }
+    .post-meta { font-size: 11px; color: var(--muted); }
+
+    /* FOOTER */
+    footer { border-top: 1px solid var(--border); padding: 40px; text-align: center; color: var(--muted); font-size: 13px; }
+    footer img { height: 32px; margin-bottom: 8px; border-radius: 6px; }
+
     @media (max-width: 700px) {
-      .featured-body { grid-template-columns: 1fr; }
-      .featured-img { min-height: 200px; }
-      .hero h1 { font-size: 32px; }
+      .featured { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 36px; }
+      .topbar { padding: 0 20px; }
+      .container { padding: 30px 20px; }
     }
   </style>
 </head>
 <body>
-  <div class="top-bar">
-    <div class="brand">🔥 Tag Soup</div>
-    <a href="rss.xml"><button class="rss-btn">📡 RSS</button></a>
+
+  <div class="topbar">
+    <div class="topbar-brand">
+      <img src="images/camp-cook-logo.jpg" alt="Tag Soup">
+      <div class="name">Tag <span>Soup</span></div>
+    </div>
+    <div class="topbar-right">
+      <a href="rss.xml"><button class="btn-rss">RSS Feed</button></a>
+    </div>
   </div>
 
   <div class="hero">
-    <div class="logo">🍲</div>
-    <h1>TAG SOUP</h1>
-    <p class="tagline">Wild Game & Outdoor Cooking<span>Daily recipes from the field to the table</span></p>
+    <img class="hero-logo" src="images/camp-cook-logo.jpg" alt="Tag Soup">
+    <h1>Wild Game <em>Done Right.</em></h1>
+    <p>Daily recipes from the field to the table — elk, bison, deer, and everything outdoors.</p>
   </div>
 
   <div class="container">
 
     <!-- Featured Recipe -->
-    <div class="featured-recipe">
-      <div class="featured-label">🔥 Featured Recipe</div>
-      <div class="featured-body">
-        <div class="featured-img">🥘</div>
-        <div class="featured-content">
-          <div class="tag">Wild Game / Elk</div>
-          <h2>Elk Bolognese Over Hand-Cut Noodles</h2>
-          <div class="meta">🔥 Tagsoup Kitchen • 4 hours ago</div>
-          <p class="excerpt">A hearty, old-world pasta built for cold nights after a long day in the field. Ground elk shoulder melts into a rich, deeply flavored sauce that rivals any beef version. The secret: a splash of red wine and a long, patient simmer.</p>
-          <a href="posts/elk-bolognese.html" class="read-btn">Read Recipe →</a>
-        </div>
+    <div class="section-head">
+      <h2>Featured Recipe</h2>
+    </div>
+    <div class="featured">
+      <div class="featured-img">
+        <img src="images/elk-bolognese.jpg" alt="Elk Bolognese" onerror="this.parentElement.innerHTML='<div style=\'font-size:64px;\'>🍲</div>'">
+      </div>
+      <div class="featured-content">
+        <span class="featured-tag">Wild Game / Elk</span>
+        <h2>Elk Bolognese Over Hand-Cut Noodles</h2>
+        <div class="meta">Tag Soup Kitchen — April 25, 2026</div>
+        <p>A hearty, old-world pasta built for cold nights after a long day in the field. Ground elk shoulder melts into a rich, deeply flavored sauce that rivals any beef version. The secret: a splash of red wine and a long, patient simmer.</p>
+        <a href="posts/elk-bolognese.html" class="featured-btn">Read Recipe →</a>
       </div>
     </div>
 
-    <div class="section-title">🔥 Latest from the Kitchen</div>
-
-    <div class="category-strip">
-      <a href="#" class="cat-btn">🥩 Wild Game</a>
-      <a href="#" class="cat-btn">🔥 Campfire</a>
-      <a href="#" class="cat-btn">🥔 Hearty Sides</a>
-      <a href="#" class="cat-btn">🍺 Cast Iron</a>
-      <a href="#" class="cat-btn">🦬 Big Game</a>
+    <!-- Categories -->
+    <div class="section-head">
+      <h2>Browse by Category</h2>
+    </div>
+    <div class="cat-strip">
+      <a href="#" class="cat-btn">Elk</a>
+      <a href="#" class="cat-btn">Bison</a>
+      <a href="#" class="cat-btn">Deer / Venison</a>
+      <a href="#" class="cat-btn">Campfire</a>
+      <a href="#" class="cat-btn">Dutch Oven</a>
+      <a href="#" class="cat-btn">Cast Iron</a>
+      <a href="#" class="cat-btn">Wildfowl</a>
+      <a href="#" class="cat-btn">Sides &amp; Soups</a>
     </div>
 
+    <!-- Posts -->
+    <div class="section-head">
+      <h2>Latest Recipes</h2>
+    </div>
     <div class="posts-grid">
-
       <div class="post-card">
         <a href="posts/elk-bolognese.html">
-          <div class="post-thumb">🥘</div>
+          <div class="post-thumb">
+            <img src="images/elk-bolognese.jpg" alt="Elk Bolognese" onerror="this.style.display='none';this.parentElement.innerHTML='🍲'">
+          </div>
         </a>
         <div class="post-body">
-          <span class="post-tag">Wild Game</span>
+          <span class="post-tag">Wild Game / Elk</span>
           <a class="post-title" href="posts/elk-bolognese.html">Elk Bolognese Over Hand-Cut Noodles</a>
           <p class="post-excerpt">A hearty, old-world pasta built for cold nights after a long day in the field...</p>
-          <div class="post-meta">🔥 Tagsoup Kitchen • 4 hours ago</div>
+          <div class="post-meta">Tag Soup Kitchen — 4 hours ago</div>
         </div>
       </div>
-
-      <div class="post-card">
-        <a href="#">
-          <div class="post-thumb">🔥</div>
-        </a>
-        <div class="post-body">
-          <span class="post-tag">Campfire</span>
-          <a class="post-title" href="#">Dutch Oven Campfire Chili — 5 Hours, Worth the Wait</a>
-          <p class="post-excerpt">Five hours over coals transforms tough elk shoulder into something that falls apart at the touch of a fork...</p>
-          <div class="post-meta">🔥 Tagsoup Kitchen • 1 day ago</div>
-        </div>
-      </div>
-
-      <div class="post-card">
-        <a href="#">
-          <div class="post-thumb">🦬</div>
-        </a>
-        <div class="post-body">
-          <span class="post-tag">Big Game</span>
-          <a class="post-title" href="#">Bison Steak Frites with Herb Butter</a>
-          <p class="post-excerpt">Thick-cut bison sirloin, screaming hot cast iron, compound herb butter melting over the top...</p>
-          <div class="post-meta">🔥 Tagsoup Kitchen • 2 days ago</div>
-        </div>
-      </div>
-
     </div>
   </div>
 
   <footer>
-    <p>🔥 Tag Soup — Wild Game & Outdoor Cooking — Fresh recipes daily</p>
+    <img src="images/camp-cook-logo.jpg" alt="Tag Soup" style="height:32px;border-radius:6px;margin-bottom:10px;">
+    <div>Tag Soup — Wild Game & Outdoor Cooking — Fresh recipes daily</div>
   </footer>
 </body>
 </html>
