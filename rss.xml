@@ -6,7 +6,18 @@
     <description>Daily wild game recipes, outdoor cooking tips, and game-day meals from Tag Soup.</description>
     <language>en-us</language>
     <atom:link href="https://kodaagentmt-max.github.io/tag-soup-blog/rss.xml" rel="self"/>
-    <lastBuildDate>Sat, 25 Apr 2026 11:00:00 MDT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 13:30:00 MDT</lastBuildDate>
+
+
+    <item>
+      <title>Smoked Venison Jerky</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/posts/smoked-venison-jerky.html</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/posts/smoked-venison-jerky.html</guid>
+      <pubDate>Sat, 25 Apr 2026 13:30:00 MDT</pubDate>
+      <description><![CDATA[Thin-cut venison backstrap, smoke-low and slow, finished with a teriyaki glaze. This isn't the gas station stuff — this is the jerky worth getting up early for.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/bison-steak.jpg" type="image/jpeg" length="108894"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/bison-steak.jpg" type="image/jpeg" medium="image"/>
+    </item>
 
     <item>
       <title>Elk Bolognese Over Hand-Cut Noodles</title>
