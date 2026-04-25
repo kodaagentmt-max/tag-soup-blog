@@ -31,6 +31,13 @@
     .hero h1 em { color: var(--accent); font-style: italic; }
     .hero p { font-size: 17px; color: var(--muted); font-weight: 400; }
 
+    .funnel-strip { background: linear-gradient(90deg, var(--card) 0%, #3a1f0a 100%); border-top: 2px solid var(--gold); border-bottom: 2px solid var(--gold); padding: 22px 40px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .funnel-strip .funnel-left { display: flex; align-items: center; gap: 16px; }
+    .funnel-strip .funnel-text h3 { font-size: 16px; font-weight: 700; color: var(--white); margin-bottom: 2px; }
+    .funnel-strip .funnel-text p { font-size: 13px; color: var(--muted); }
+    .funnel-strip .funnel-btn { background: var(--gold); color: #000; font-size: 13px; font-weight: 700; padding: 10px 24px; border-radius: 5px; white-space: nowrap; flex-shrink: 0; }
+    .funnel-strip .funnel-btn:hover { background: var(--white); color: #000; }
+
     .container { max-width: 1100px; margin: 0 auto; padding: 50px 40px; }
 
     .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 14px; }
@@ -47,6 +54,12 @@
     .featured-content p { font-size: 15px; color: var(--muted); line-height: 1.8; margin-bottom: 24px; }
     .featured-btn { display: inline-block; background: var(--accent); color: #000; font-size: 13px; font-weight: 700; padding: 10px 22px; border-radius: 5px; width: fit-content; }
     .featured-btn:hover { background: var(--gold); color: #000; }
+
+    .shop-card { background: linear-gradient(135deg, var(--card) 0%, #2a1a08 100%); border: 1px solid var(--gold); border-radius: 12px; padding: 28px; margin-bottom: 50px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .shop-card .shop-text h3 { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--white); margin-bottom: 8px; }
+    .shop-card .shop-text p { font-size: 14px; color: var(--muted); }
+    .shop-card .shop-btn { background: var(--gold); color: #000; font-size: 14px; font-weight: 700; padding: 12px 28px; border-radius: 6px; white-space: nowrap; flex-shrink: 0; }
+    .shop-card .shop-btn:hover { background: var(--white); color: #000; }
 
     .cat-strip { display: flex; gap: 10px; margin-bottom: 40px; flex-wrap: wrap; }
     .cat-btn { background: var(--card); border: 1px solid var(--border); color: var(--accent); padding: 7px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; }
@@ -65,12 +78,17 @@
 
     footer { border-top: 1px solid var(--border); padding: 40px; text-align: center; color: var(--muted); font-size: 13px; }
     footer img { height: 32px; margin-bottom: 8px; border-radius: 6px; }
+    footer .footer-links { margin-top: 10px; display: flex; justify-content: center; gap: 20px; }
+    footer .footer-links a { color: var(--gold); font-weight: 600; }
+    footer .footer-links a:hover { color: var(--accent); }
 
     @media (max-width: 700px) {
       .featured { grid-template-columns: 1fr; }
       .hero h1 { font-size: 36px; }
       .topbar { padding: 0 20px; }
       .container { padding: 30px 20px; }
+      .funnel-strip { flex-direction: column; text-align: center; }
+      .shop-card { flex-direction: column; }
     }
   </style>
 </head>
@@ -92,6 +110,17 @@
     <p>Daily recipes from the field to the table — elk, bison, deer, and everything outdoors.</p>
   </div>
 
+  <div class="funnel-strip">
+    <div class="funnel-left">
+      <img src="images/camp-cook-logo.jpg" style="width:36px;height:36px;object-fit:contain;border-radius:6px;" alt="Camp Cook Kitchen">
+      <div class="funnel-text">
+        <h3>Shop Camp Cook Kitchen</h3>
+        <p>Outdoor cooking gear, camp kitchens, and field-to-table equipment.</p>
+      </div>
+    </div>
+    <a href="https://campcookkitchen.com/" class="funnel-btn" target="_blank" rel="noopener">Visit the Store →</a>
+  </div>
+
   <div class="container">
 
     <div class="section-head">
@@ -108,6 +137,14 @@
         <p>A hearty, old-world pasta built for cold nights after a long day in the field. Ground elk shoulder melts into a rich, deeply flavored sauce that rivals any beef version. The secret: a splash of red wine and a long, patient simmer.</p>
         <a href="posts/elk-bolognese.html" class="featured-btn">Read Recipe →</a>
       </div>
+    </div>
+
+    <div class="shop-card">
+      <div class="shop-text">
+        <h3>Gear Up for the Field to Table</h3>
+        <p>From dutch ovens to portable camp kitchens — everything you need to cook wild game in the field. Built for hunters, by hunters.</p>
+      </div>
+      <a href="https://campcookkitchen.com/" class="shop-btn" target="_blank" rel="noopener">Shop Camp Cook Kitchen →</a>
     </div>
 
     <div class="section-head">
@@ -178,6 +215,10 @@
   <footer>
     <img src="images/camp-cook-logo.jpg" alt="Tag Soup" style="height:32px;border-radius:6px;margin-bottom:10px;">
     <div>Tag Soup — Wild Game & Outdoor Cooking — Fresh recipes daily</div>
+    <div class="footer-links">
+      <a href="https://campcookkitchen.com/" target="_blank" rel="noopener">Shop Camp Cook Kitchen</a>
+      <a href="https://campcookkitchen.com/" target="_blank" rel="noopener">CampCookKitchen.com</a>
+    </div>
   </footer>
 </body>
 </html>
