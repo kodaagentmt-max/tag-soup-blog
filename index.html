@@ -15,7 +15,6 @@
     a:hover { color: var(--gold); }
     img { max-width: 100%; }
 
-    /* TOPBAR */
     .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 40px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
     .topbar-brand { display: flex; align-items: center; gap: 10px; }
     .topbar-brand img { height: 42px; width: auto; }
@@ -26,25 +25,21 @@
     .topbar-right a:hover { color: var(--accent); }
     .btn-rss { background: var(--accent); color: #000; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 4px; }
 
-    /* HERO */
     .hero { background: linear-gradient(135deg, var(--surface) 0%, #0f0804 100%); border-bottom: 1px solid var(--border); padding: 70px 40px; text-align: center; }
     .hero-logo { height: 80px; margin-bottom: 20px; border-radius: 16px; }
     .hero h1 { font-family: 'Playfair Display', serif; font-size: 52px; font-weight: 700; color: var(--white); letter-spacing: -1px; margin-bottom: 8px; }
     .hero h1 em { color: var(--accent); font-style: italic; }
     .hero p { font-size: 17px; color: var(--muted); font-weight: 400; }
 
-    /* CONTAINER */
     .container { max-width: 1100px; margin: 0 auto; padding: 50px 40px; }
 
-    /* SECTION HEADER */
     .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 14px; }
     .section-head h2 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--white); }
     .section-head a { font-size: 13px; color: var(--muted); }
 
-    /* FEATURED */
     .featured { background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-bottom: 50px; display: grid; grid-template-columns: 1fr 1fr; }
-    .featured-img { background: #2a1a08; min-height: 300px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
-    .featured-img img { width: 100%; height: 100%; object-fit: cover; }
+    .featured-img { min-height: 300px; overflow: hidden; }
+    .featured-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .featured-content { padding: 36px; display: flex; flex-direction: column; justify-content: center; }
     .featured-tag { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin-bottom: 12px; display: block; }
     .featured-content h2 { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; color: var(--white); line-height: 1.3; margin-bottom: 14px; }
@@ -53,24 +48,21 @@
     .featured-btn { display: inline-block; background: var(--accent); color: #000; font-size: 13px; font-weight: 700; padding: 10px 22px; border-radius: 5px; width: fit-content; }
     .featured-btn:hover { background: var(--gold); color: #000; }
 
-    /* CATEGORIES */
     .cat-strip { display: flex; gap: 10px; margin-bottom: 40px; flex-wrap: wrap; }
     .cat-btn { background: var(--card); border: 1px solid var(--border); color: var(--accent); padding: 7px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; }
     .cat-btn:hover { background: var(--accent); color: #000; }
 
-    /* POST GRID */
     .posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
     .post-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: all 0.2s; }
     .post-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .post-thumb { height: 180px; background: #2a1a08; display: flex; align-items: center; justify-content: center; font-size: 48px; overflow: hidden; }
-    .post-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .post-thumb { height: 180px; overflow: hidden; background: #2a1a08; }
+    .post-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .post-body { padding: 18px; }
     .post-tag { font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent); font-weight: 700; margin-bottom: 6px; display: block; }
     .post-title { font-size: 15px; font-weight: 600; color: var(--white); line-height: 1.4; display: block; margin-bottom: 8px; }
     .post-excerpt { font-size: 12px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; margin-bottom: 8px; }
     .post-meta { font-size: 11px; color: var(--muted); }
 
-    /* FOOTER */
     footer { border-top: 1px solid var(--border); padding: 40px; text-align: center; color: var(--muted); font-size: 13px; }
     footer img { height: 32px; margin-bottom: 8px; border-radius: 6px; }
 
@@ -102,13 +94,12 @@
 
   <div class="container">
 
-    <!-- Featured Recipe -->
     <div class="section-head">
       <h2>Featured Recipe</h2>
     </div>
     <div class="featured">
       <div class="featured-img">
-        <img src="images/elk-bolognese.jpg" alt="Elk Bolognese" onerror="this.parentElement.innerHTML='<div style=\'font-size:64px;\'>🍲</div>'">
+        <img src="images/elk-bolognese.jpg" alt="Elk Bolognese over hand-cut noodles">
       </div>
       <div class="featured-content">
         <span class="featured-tag">Wild Game / Elk</span>
@@ -119,7 +110,6 @@
       </div>
     </div>
 
-    <!-- Categories -->
     <div class="section-head">
       <h2>Browse by Category</h2>
     </div>
@@ -134,22 +124,52 @@
       <a href="#" class="cat-btn">Sides &amp; Soups</a>
     </div>
 
-    <!-- Posts -->
     <div class="section-head">
       <h2>Latest Recipes</h2>
     </div>
     <div class="posts-grid">
       <div class="post-card">
         <a href="posts/elk-bolognese.html">
-          <div class="post-thumb">
-            <img src="images/elk-bolognese.jpg" alt="Elk Bolognese" onerror="this.style.display='none';this.parentElement.innerHTML='🍲'">
-          </div>
+          <div class="post-thumb"><img src="images/elk-bolognese.jpg" alt="Elk Bolognese"></div>
         </a>
         <div class="post-body">
           <span class="post-tag">Wild Game / Elk</span>
           <a class="post-title" href="posts/elk-bolognese.html">Elk Bolognese Over Hand-Cut Noodles</a>
           <p class="post-excerpt">A hearty, old-world pasta built for cold nights after a long day in the field...</p>
           <div class="post-meta">Tag Soup Kitchen — 4 hours ago</div>
+        </div>
+      </div>
+      <div class="post-card">
+        <a href="#">
+          <div class="post-thumb"><img src="images/campfire-chili.jpg" alt="Campfire Chili"></div>
+        </a>
+        <div class="post-body">
+          <span class="post-tag">Campfire</span>
+          <a class="post-title" href="#">Dutch Oven Campfire Chili — 5 Hours, Worth the Wait</a>
+          <p class="post-excerpt">Five hours over coals transforms tough elk shoulder into something that falls apart at the touch of a fork...</p>
+          <div class="post-meta">Tag Soup Kitchen — 1 day ago</div>
+        </div>
+      </div>
+      <div class="post-card">
+        <a href="#">
+          <div class="post-thumb"><img src="images/bison-steak.jpg" alt="Bison Steak"></div>
+        </a>
+        <div class="post-body">
+          <span class="post-tag">Big Game</span>
+          <a class="post-title" href="#">Bison Steak Frites with Herb Butter</a>
+          <p class="post-excerpt">Thick-cut bison sirloin, screaming hot cast iron, compound herb butter melting over the top...</p>
+          <div class="post-meta">Tag Soup Kitchen — 2 days ago</div>
+        </div>
+      </div>
+      <div class="post-card">
+        <a href="#">
+          <div class="post-thumb"><img src="images/venison-stew.jpg" alt="Venison Stew"></div>
+        </a>
+        <div class="post-body">
+          <span class="post-tag">Deer / Venison</span>
+          <a class="post-title" href="#">Slow-Braised Venison Stew with Root Vegetables</a>
+          <p class="post-excerpt">A weekend braise that rewards patience. Boneless shoulder, low heat, red wine, and time...</p>
+          <div class="post-meta">Tag Soup Kitchen — 3 days ago</div>
         </div>
       </div>
     </div>
