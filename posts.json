@@ -1,517 +1,482 @@
 [
   {
-    "id": "20260501",
-    "date": "May 1, 2026",
-    "title": "Elk Sloppy Joes with Pickled Jalapenos"
+    "id": "bison-beefaroni",
+    "title": "Bison Beefaroni",
+    "filename": "bison-beefaroni.html"
   },
   {
-    "id": "20260502",
-    "date": "May 1, 2026",
-    "title": "Elk Tamales with Red Chile Sauce"
+    "id": "bison-bourguignon",
+    "title": "Bison Bourguignon",
+    "filename": "bison-bourguignon.html"
   },
   {
-    "id": "20260503",
-    "date": "May 1, 2026",
-    "title": "Elk Shawarma Plate"
+    "id": "bison-burgers-with-caramelized-onions-and-gruy\u00e8re",
+    "title": "Bison Burgers With Caramelized Onions And Gruy\u00e8re",
+    "filename": "bison-burgers-with-caramelized-onions-and-gruy\u00e8re.html"
   },
   {
-    "id": "20260504",
-    "date": "May 1, 2026",
-    "title": "Elk Green Chile Stew"
+    "id": "bison-enchiladas-with-roasted-poblano-sauce",
+    "title": "Bison Enchiladas With Roasted Poblano Sauce",
+    "filename": "bison-enchiladas-with-roasted-poblano-sauce.html"
   },
   {
-    "id": "20260505",
-    "date": "May 1, 2026",
-    "title": "Venison Chorizo Breakfast Tacos"
+    "id": "bison-french-dip-sandwiches",
+    "title": "Bison French Dip Sandwiches",
+    "filename": "bison-french-dip-sandwiches.html"
   },
   {
-    "id": "20260506",
-    "date": "May 1, 2026",
-    "title": "Venison Bibimbap"
+    "id": "bison-osso-buco",
+    "title": "Bison Osso Buco",
+    "filename": "bison-osso-buco.html"
   },
   {
-    "id": "20260507",
-    "date": "May 1, 2026",
-    "title": "Venison Neck Ragu with Rigatoni"
+    "id": "bison-steak-frites-with-herb-butter",
+    "title": "Bison Steak Frites With Herb Butter",
+    "filename": "bison-steak-frites-with-herb-butter.html"
   },
   {
-    "id": "20260508",
-    "date": "May 1, 2026",
-    "title": "Venison Fried Pickles with Sriracha Aioli"
+    "id": "bison-tagliatelle-with-brown-butter-and-sage",
+    "title": "Bison Tagliatelle With Brown Butter And Sage",
+    "filename": "bison-tagliatelle-with-brown-butter-and-sage.html"
   },
   {
-    "id": "20260509",
-    "date": "May 1, 2026",
-    "title": "Venison Liver and Onions"
+    "id": "boar-smoked-sausage-with-peppers-and-onions",
+    "title": "Boar Smoked Sausage With Peppers And Onions",
+    "filename": "boar-smoked-sausage-with-peppers-and-onions.html"
   },
   {
-    "id": "20260510",
-    "date": "May 1, 2026",
-    "title": "Venison Pastrami on Rye"
+    "id": "campfire-breakfast-burritos",
+    "title": "Campfire Breakfast Burritos",
+    "filename": "campfire-breakfast-burritos.html"
   },
   {
-    "id": "20260511",
-    "date": "May 1, 2026",
-    "title": "Bison French Dip Sandwiches"
+    "id": "campfire-cedar-plank-salmon",
+    "title": "Campfire Cedar Plank Salmon",
+    "filename": "campfire-cedar-plank-salmon.html"
   },
   {
-    "id": "20260512",
-    "date": "May 1, 2026",
-    "title": "Bison Tagliatelle with Brown Butter and Sage"
+    "id": "campfire-flatbread-with-wild-boar-sausage",
+    "title": "Campfire Flatbread With Wild Boar Sausage",
+    "filename": "campfire-flatbread-with-wild-boar-sausage.html"
   },
   {
-    "id": "20260513",
-    "date": "May 1, 2026",
-    "title": "Bison Enchiladas with Roasted Poblano Sauce"
+    "id": "campfire-grilled-street-corn",
+    "title": "Campfire Grilled Street Corn",
+    "filename": "campfire-grilled-street-corn.html"
   },
   {
-    "id": "20260514",
-    "date": "May 1, 2026",
-    "title": "Smoked Bison Baby Back Ribs"
+    "id": "campfire-shrimp-boil",
+    "title": "Campfire Shrimp Boil",
+    "filename": "campfire-shrimp-boil.html"
   },
   {
-    "id": "20260515",
-    "date": "May 1, 2026",
-    "title": "Wild Boar Bacon Smash Burger"
+    "id": "canadian-goose-confit-legs",
+    "title": "Canadian Goose Confit Legs",
+    "filename": "canadian-goose-confit-legs.html"
   },
   {
-    "id": "20260516",
-    "date": "May 1, 2026",
-    "title": "Wild Boar Osso Buco with Gremolata"
+    "id": "carp-with-lemon-dill-beurre-blanc",
+    "title": "Carp With Lemon Dill Beurre Blanc",
+    "filename": "carp-with-lemon-dill-beurre-blanc.html"
   },
   {
-    "id": "20260517",
-    "date": "May 1, 2026",
-    "title": "Wild Boar Curry with Coconut Milk"
+    "id": "cast-iron-campfire-beans",
+    "title": "Cast Iron Campfire Beans",
+    "filename": "cast-iron-campfire-beans.html"
   },
   {
-    "id": "20260518",
-    "date": "May 1, 2026",
-    "title": "Wild Boar Rinds Cracklings"
+    "id": "cast-iron-campfire-cornbread-with-honey-butter",
+    "title": "Cast Iron Campfire Cornbread With Honey Butter",
+    "filename": "cast-iron-campfire-cornbread-with-honey-butter.html"
   },
   {
-    "id": "20260519",
-    "date": "May 1, 2026",
-    "title": "Teal Duck Poppers with Bacon"
+    "id": "cast-iron-duck-breast-with-cherry-reduction",
+    "title": "Cast Iron Duck Breast With Cherry Reduction",
+    "filename": "cast-iron-duck-breast-with-cherry-reduction.html"
   },
   {
-    "id": "20260520",
-    "date": "May 1, 2026",
-    "title": "Merganser Gumbo with Duck Andouille"
+    "id": "cast-iron-wild-boar-ribs",
+    "title": "Cast Iron Wild Boar Ribs",
+    "filename": "cast-iron-wild-boar-ribs.html"
   },
   {
-    "id": "20260521",
-    "date": "May 1, 2026",
-    "title": "Spoonbill Duck Breast with Plum Sauce"
+    "id": "catfish-po-boy-with-remoulade",
+    "title": "Catfish Po Boy With Remoulade",
+    "filename": "catfish-po-boy-with-remoulade.html"
   },
   {
-    "id": "20260522",
-    "date": "May 1, 2026",
-    "title": "Duck Egg Frittata with Morels and Ramps"
+    "id": "duck-confit-tacos-with-pickled-onions",
+    "title": "Duck Confit Tacos With Pickled Onions",
+    "filename": "duck-confit-tacos-with-pickled-onions.html"
   },
   {
-    "id": "20260523",
-    "date": "May 1, 2026",
-    "title": "Carp with Lemon-Dill Beurre Blanc"
+    "id": "duck-egg-frittata-with-morels-and-ramps",
+    "title": "Duck Egg Frittata With Morels And Ramps",
+    "filename": "duck-egg-frittata-with-morels-and-ramps.html"
   },
   {
-    "id": "20260524",
-    "date": "May 1, 2026",
-    "title": "Catfish Po' Boy with Remoulade"
+    "id": "duck-fried-rice",
+    "title": "Duck Fried Rice",
+    "filename": "duck-fried-rice.html"
   },
   {
-    "id": "20260525",
-    "date": "May 1, 2026",
-    "title": "Sturgeon Kedgeree"
+    "id": "dutch-oven-apple-cinnamon-cobbler",
+    "title": "Dutch Oven Apple Cinnamon Cobbler",
+    "filename": "dutch-oven-apple-cinnamon-cobbler.html"
   },
   {
-    "id": "20260526",
-    "date": "May 1, 2026",
-    "title": "Ember-Roasted Acorn Squash with Sage Butter"
+    "id": "dutch-oven-beef-stew",
+    "title": "Dutch Oven Beef Stew",
+    "filename": "dutch-oven-beef-stew.html"
   },
   {
-    "id": "20260527",
-    "date": "May 1, 2026",
-    "title": "Dutch Oven Cinnamon Rolls"
+    "id": "dutch-oven-campfire-chili-5-hours-worth-the-wait",
+    "title": "Dutch Oven Campfire Chili 5 Hours Worth The Wait",
+    "filename": "dutch-oven-campfire-chili-5-hours-worth-the-wait.html"
   },
   {
-    "id": "20260528",
-    "date": "May 1, 2026",
-    "title": "Cast Iron Campfire Cornbread with Honey Butter"
+    "id": "dutch-oven-cinnamon-rolls",
+    "title": "Dutch Oven Cinnamon Rolls",
+    "filename": "dutch-oven-cinnamon-rolls.html"
   },
   {
-    "id": "20260425",
-    "date": "April 25, 2026",
-    "title": "Bison Beefaroni"
+    "id": "dutch-oven-cornbread",
+    "title": "Dutch Oven Cornbread",
+    "filename": "dutch-oven-cornbread.html"
   },
   {
-    "id": "20260426",
-    "date": "April 25, 2026",
-    "title": "Bison Bourguignon"
+    "id": "dutch-oven-pot-roast-with-red-wine-and-rosemary",
+    "title": "Dutch Oven Pot Roast With Red Wine And Rosemary",
+    "filename": "dutch-oven-pot-roast-with-red-wine-and-rosemary.html"
   },
   {
-    "id": "20260427",
-    "date": "April 25, 2026",
-    "title": "Bison Burgers with Caramelized Onions and Gruy\u00e8re"
+    "id": "dutch-oven-sourdough-bread",
+    "title": "Dutch Oven Sourdough Bread",
+    "filename": "dutch-oven-sourdough-bread.html"
   },
   {
-    "id": "20260428",
-    "date": "April 25, 2026",
-    "title": "Bison Meatballs in Smoky BBQ Sauce"
+    "id": "elk-backstrap-with-wild-mushroom-cream-sauce",
+    "title": "Elk Backstrap With Wild Mushroom Cream Sauce",
+    "filename": "elk-backstrap-with-wild-mushroom-cream-sauce.html"
   },
   {
-    "id": "20260429",
-    "date": "April 25, 2026",
-    "title": "Bison Osso Buco"
+    "id": "elk-chili-colorado",
+    "title": "Elk Chili Colorado",
+    "filename": "elk-chili-colorado.html"
   },
   {
-    "id": "20260430",
-    "date": "April 25, 2026",
-    "title": "Bison Steak Frites with Herb Butter"
+    "id": "elk-green-chile-stew",
+    "title": "Elk Green Chile Stew",
+    "filename": "elk-green-chile-stew.html"
   },
   {
-    "id": "20260431",
-    "date": "April 25, 2026",
-    "title": "Boar Smoked Sausage with Peppers and Onions"
+    "id": "elk-meatballs-in-tomato-basil-sauce",
+    "title": "Elk Meatballs In Tomato Basil Sauce",
+    "filename": "elk-meatballs-in-tomato-basil-sauce.html"
   },
   {
-    "id": "20260432",
-    "date": "April 25, 2026",
-    "title": "Campfire Breakfast Burritos"
+    "id": "elk-rueben-sandwich",
+    "title": "Elk Rueben Sandwich",
+    "filename": "elk-rueben-sandwich.html"
   },
   {
-    "id": "20260433",
-    "date": "April 25, 2026",
-    "title": "Campfire Cedar Plank Salmon"
+    "id": "elk-shawarma-plate",
+    "title": "Elk Shawarma Plate",
+    "filename": "elk-shawarma-plate.html"
   },
   {
-    "id": "20260434",
-    "date": "April 25, 2026",
-    "title": "Campfire Flatbread with Wild Boar Sausage"
+    "id": "elk-sloppy-joes-with-pickled-jalapenos",
+    "title": "Elk Sloppy Joes With Pickled Jalapenos",
+    "filename": "elk-sloppy-joes-with-pickled-jalapenos.html"
   },
   {
-    "id": "20260435",
-    "date": "April 25, 2026",
-    "title": "Campfire Grilled Street Corn"
+    "id": "elk-tacos-with-roasted-salsa-verde",
+    "title": "Elk Tacos With Roasted Salsa Verde",
+    "filename": "elk-tacos-with-roasted-salsa-verde.html"
   },
   {
-    "id": "20260436",
-    "date": "April 25, 2026",
-    "title": "Campfire Shrimp Boil"
+    "id": "elk-tamales-with-red-chile-sauce",
+    "title": "Elk Tamales With Red Chile Sauce",
+    "filename": "elk-tamales-with-red-chile-sauce.html"
   },
   {
-    "id": "20260437",
-    "date": "April 25, 2026",
-    "title": "Canadian Goose Confit Legs"
+    "id": "ember-roasted-acorn-squash-with-sage-butter",
+    "title": "Ember Roasted Acorn Squash With Sage Butter",
+    "filename": "ember-roasted-acorn-squash-with-sage-butter.html"
   },
   {
-    "id": "20260438",
-    "date": "April 25, 2026",
-    "title": "Cast Iron Campfire Beans"
+    "id": "ember-roasted-whole-duck",
+    "title": "Ember Roasted Whole Duck",
+    "filename": "ember-roasted-whole-duck.html"
   },
   {
-    "id": "20260439",
-    "date": "April 25, 2026",
-    "title": "Cast Iron Duck Breast with Cherry Reduction"
+    "id": "goose-gumbo",
+    "title": "Goose Gumbo",
+    "filename": "goose-gumbo.html"
   },
   {
-    "id": "20260440",
-    "date": "April 25, 2026",
-    "title": "Cast Iron Quail with Honey and Thyme"
+    "id": "grouse-piccata-with-capers-and-lemon",
+    "title": "Grouse Piccata With Capers And Lemon",
+    "filename": "grouse-piccata-with-capers-and-lemon.html"
   },
   {
-    "id": "20260441",
-    "date": "April 25, 2026",
-    "title": "Cast Iron Reverse-Seared Elk Ribeye"
+    "id": "merganser-gumbo-with-duck-andouille",
+    "title": "Merganser Gumbo With Duck Andouille",
+    "filename": "merganser-gumbo-with-duck-andouille.html"
   },
   {
-    "id": "20260442",
-    "date": "April 25, 2026",
-    "title": "Cast Iron Venison Chop with Peach Compote"
+    "id": "moulard-duck-prosciutto",
+    "title": "Moulard Duck Prosciutto",
+    "filename": "moulard-duck-prosciutto.html"
   },
   {
-    "id": "20260443",
-    "date": "April 25, 2026",
-    "title": "Cast Iron Wild Boar Ribs"
+    "id": "muskie-fish-cakes-with-cajun-remoulade",
+    "title": "Muskie Fish Cakes With Cajun Remoulade",
+    "filename": "muskie-fish-cakes-with-cajun-remoulade.html"
   },
   {
-    "id": "20260444",
-    "date": "April 25, 2026",
-    "title": "Duck Confit Tacos with Pickled Onions"
+    "id": "pan-fried-trout-with-brown-butter-and-almonds",
+    "title": "Pan Fried Trout With Brown Butter And Almonds",
+    "filename": "pan-fried-trout-with-brown-butter-and-almonds.html"
   },
   {
-    "id": "20260445",
-    "date": "April 25, 2026",
-    "title": "Duck Fried Rice"
+    "id": "perch-meuni\u00e8re-with-parsley-and-lemon",
+    "title": "Perch Meuni\u00e8re With Parsley And Lemon",
+    "filename": "perch-meuni\u00e8re-with-parsley-and-lemon.html"
   },
   {
-    "id": "20260446",
-    "date": "April 25, 2026",
-    "title": "Dutch Oven Apple Cinnamon Cobbler"
+    "id": "pheasant-fried-rice",
+    "title": "Pheasant Fried Rice",
+    "filename": "pheasant-fried-rice.html"
   },
   {
-    "id": "20260447",
-    "date": "April 25, 2026",
-    "title": "Dutch Oven Beef Stew"
+    "id": "pheasant-pot-pie",
+    "title": "Pheasant Pot Pie",
+    "filename": "pheasant-pot-pie.html"
   },
   {
-    "id": "20260448",
-    "date": "April 25, 2026",
-    "title": "Dutch Oven Campfire Chili \u2014 5 Hours, Worth the Wait"
+    "id": "rabbit-and-dumplings",
+    "title": "Rabbit And Dumplings",
+    "filename": "rabbit-and-dumplings.html"
   },
   {
-    "id": "20260449",
-    "date": "April 25, 2026",
-    "title": "Dutch Oven Cornbread"
+    "id": "rabbit-cacciatore",
+    "title": "Rabbit Cacciatore",
+    "filename": "rabbit-cacciatore.html"
   },
   {
-    "id": "20260450",
-    "date": "April 25, 2026",
-    "title": "Dutch Oven Pot Roast with Red Wine and Rosemary"
+    "id": "rabbit-tikka-masala",
+    "title": "Rabbit Tikka Masala",
+    "filename": "rabbit-tikka-masala.html"
   },
   {
-    "id": "20260451",
-    "date": "April 25, 2026",
-    "title": "Dutch Oven Sourdough Bread"
+    "id": "roasted-pheasant-with-bacon-and-thyme",
+    "title": "Roasted Pheasant With Bacon And Thyme",
+    "filename": "roasted-pheasant-with-bacon-and-thyme.html"
   },
   {
-    "id": "20260452",
-    "date": "April 25, 2026",
-    "title": "Elk Backstrap with Wild Mushroom Cream Sauce"
+    "id": "slow-cooker-venison-roast",
+    "title": "Slow Cooker Venison Roast",
+    "filename": "slow-cooker-venison-roast.html"
   },
   {
-    "id": "20260453",
-    "date": "April 25, 2026",
-    "title": "Elk Bolognese Over Hand-Cut Noodles"
+    "id": "smoked-bison-baby-back-ribs",
+    "title": "Smoked Bison Baby Back Ribs",
+    "filename": "smoked-bison-baby-back-ribs.html"
   },
   {
-    "id": "20260454",
-    "date": "April 25, 2026",
-    "title": "Elk Chili Colorado"
+    "id": "smoked-bison-brisket",
+    "title": "Smoked Bison Brisket",
+    "filename": "smoked-bison-brisket.html"
   },
   {
-    "id": "20260455",
-    "date": "April 25, 2026",
-    "title": "Elk Meatballs in Tomato Basil Sauce"
+    "id": "smoked-duck-breast-with-maple-and-black-pepper",
+    "title": "Smoked Duck Breast With Maple And Black Pepper",
+    "filename": "smoked-duck-breast-with-maple-and-black-pepper.html"
   },
   {
-    "id": "20260456",
-    "date": "April 25, 2026",
-    "title": "Elk Osso Buco"
+    "id": "smoked-duck-eggs-benedict",
+    "title": "Smoked Duck Eggs Benedict",
+    "filename": "smoked-duck-eggs-benedict.html"
   },
   {
-    "id": "20260457",
-    "date": "April 25, 2026",
-    "title": "Elk Rueben Sandwich"
+    "id": "smoked-elk-leg-roast",
+    "title": "Smoked Elk Leg Roast",
+    "filename": "smoked-elk-leg-roast.html"
   },
   {
-    "id": "20260458",
-    "date": "April 25, 2026",
-    "title": "Elk Tacos with Roasted Salsa Verde"
+    "id": "smoked-elk-summer-sausage",
+    "title": "Smoked Elk Summer Sausage",
+    "filename": "smoked-elk-summer-sausage.html"
   },
   {
-    "id": "20260459",
-    "date": "April 25, 2026",
-    "title": "Ember-Roasted Whole Duck"
+    "id": "smoked-goose-breast-with-peach-glaze",
+    "title": "Smoked Goose Breast With Peach Glaze",
+    "filename": "smoked-goose-breast-with-peach-glaze.html"
   },
   {
-    "id": "20260460",
-    "date": "April 25, 2026",
-    "title": "Goose Gumbo"
+    "id": "smoked-pheasant-breast-with-gouda",
+    "title": "Smoked Pheasant Breast With Gouda",
+    "filename": "smoked-pheasant-breast-with-gouda.html"
   },
   {
-    "id": "20260461",
-    "date": "April 25, 2026",
-    "title": "Grilled Bison Ribeye with Chimichurri"
+    "id": "smoked-pheasant-with-sage-and-apple",
+    "title": "Smoked Pheasant With Sage And Apple",
+    "filename": "smoked-pheasant-with-sage-and-apple.html"
   },
   {
-    "id": "20260462",
-    "date": "April 25, 2026",
-    "title": "Grouse Piccata with Capers and Lemon"
+    "id": "smoked-rabbit-with-apricot-mustard-glaze",
+    "title": "Smoked Rabbit With Apricot Mustard Glaze",
+    "filename": "smoked-rabbit-with-apricot-mustard-glaze.html"
   },
   {
-    "id": "20260463",
-    "date": "April 25, 2026",
-    "title": "Moulard Duck Prosciutto"
+    "id": "smoked-steelhead-trout-dip",
+    "title": "Smoked Steelhead Trout Dip",
+    "filename": "smoked-steelhead-trout-dip.html"
   },
   {
-    "id": "20260464",
-    "date": "April 25, 2026",
-    "title": "MuskieFish Cakes with Cajun Remoulade"
+    "id": "smoked-venison-jerky-teriyaki-style",
+    "title": "Smoked Venison Jerky Teriyaki Style",
+    "filename": "smoked-venison-jerky-teriyaki-style.html"
   },
   {
-    "id": "20260465",
-    "date": "April 25, 2026",
-    "title": "Pan-Fried Trout with Brown Butter and Almonds"
+    "id": "smoked-wild-mushrooms",
+    "title": "Smoked Wild Mushrooms",
+    "filename": "smoked-wild-mushrooms.html"
   },
   {
-    "id": "20260466",
-    "date": "April 25, 2026",
-    "title": "Perch Meuni\u00e8re with Parsley and Lemon"
+    "id": "southern-fried-rabbit",
+    "title": "Southern Fried Rabbit",
+    "filename": "southern-fried-rabbit.html"
   },
   {
-    "id": "20260467",
-    "date": "April 25, 2026",
-    "title": "Pheasant Fried Rice"
+    "id": "spoonbill-duck-breast-with-plum-sauce",
+    "title": "Spoonbill Duck Breast With Plum Sauce",
+    "filename": "spoonbill-duck-breast-with-plum-sauce.html"
   },
   {
-    "id": "20260468",
-    "date": "April 25, 2026",
-    "title": "Pheasant Pot Pie"
+    "id": "sturgeon-kedgeree",
+    "title": "Sturgeon Kedgeree",
+    "filename": "sturgeon-kedgeree.html"
   },
   {
-    "id": "20260469",
-    "date": "April 25, 2026",
-    "title": "Rabbit and Dumplings"
+    "id": "teal-duck-poppers-with-bacon",
+    "title": "Teal Duck Poppers With Bacon",
+    "filename": "teal-duck-poppers-with-bacon.html"
   },
   {
-    "id": "20260470",
-    "date": "April 25, 2026",
-    "title": "Rabbit Cacciatore"
+    "id": "venison-bibimbap",
+    "title": "Venison Bibimbap",
+    "filename": "venison-bibimbap.html"
   },
   {
-    "id": "20260471",
-    "date": "April 25, 2026",
-    "title": "Rabbit Tikka Masala"
+    "id": "venison-chorizo-breakfast-tacos",
+    "title": "Venison Chorizo Breakfast Tacos",
+    "filename": "venison-chorizo-breakfast-tacos.html"
   },
   {
-    "id": "20260472",
-    "date": "April 25, 2026",
-    "title": "Roasted Pheasant with Bacon and Thyme"
+    "id": "venison-curry-with-sweet-potato",
+    "title": "Venison Curry With Sweet Potato",
+    "filename": "venison-curry-with-sweet-potato.html"
   },
   {
-    "id": "20260473",
-    "date": "April 25, 2026",
-    "title": "Slow-Cooker Venison Roast"
+    "id": "venison-fried-pickles-with-sriracha-aioli",
+    "title": "Venison Fried Pickles With Sriracha Aioli",
+    "filename": "venison-fried-pickles-with-sriracha-aioli.html"
   },
   {
-    "id": "20260474",
-    "date": "April 25, 2026",
-    "title": "Smoked Bison Brisket"
+    "id": "venison-italian-sub",
+    "title": "Venison Italian Sub",
+    "filename": "venison-italian-sub.html"
   },
   {
-    "id": "20260475",
-    "date": "April 25, 2026",
-    "title": "Smoked Duck Breast with Maple and Black Pepper"
+    "id": "venison-liver-and-onions",
+    "title": "Venison Liver And Onions",
+    "filename": "venison-liver-and-onions.html"
   },
   {
-    "id": "20260476",
-    "date": "April 25, 2026",
-    "title": "Smoked Duck Eggs Benedict"
+    "id": "venison-mushroom-stroganoff",
+    "title": "Venison Mushroom Stroganoff",
+    "filename": "venison-mushroom-stroganoff.html"
   },
   {
-    "id": "20260477",
-    "date": "April 25, 2026",
-    "title": "Smoked Elk Leg Roast"
+    "id": "venison-neck-ragu-with-rigatoni",
+    "title": "Venison Neck Ragu With Rigatoni",
+    "filename": "venison-neck-ragu-with-rigatoni.html"
   },
   {
-    "id": "20260478",
-    "date": "April 25, 2026",
-    "title": "Smoked Elk Summer Sausage"
+    "id": "venison-pastrami-on-rye",
+    "title": "Venison Pastrami On Rye",
+    "filename": "venison-pastrami-on-rye.html"
   },
   {
-    "id": "20260479",
-    "date": "April 25, 2026",
-    "title": "Smoked Goose Breast with Peach Glaze"
+    "id": "venison-potato-soup",
+    "title": "Venison Potato Soup",
+    "filename": "venison-potato-soup.html"
   },
   {
-    "id": "20260480",
-    "date": "April 25, 2026",
-    "title": "Smoked Pheasant Breast with Gouda"
+    "id": "venison-salisbury-steak",
+    "title": "Venison Salisbury Steak",
+    "filename": "venison-salisbury-steak.html"
   },
   {
-    "id": "20260481",
-    "date": "April 25, 2026",
-    "title": "Smoked Pheasant with Sage and Apple"
+    "id": "venison-stew-with-root-vegetables",
+    "title": "Venison Stew With Root Vegetables",
+    "filename": "venison-stew-with-root-vegetables.html"
   },
   {
-    "id": "20260482",
-    "date": "April 25, 2026",
-    "title": "Smoked Rabbit with Apricot Mustard Glaze"
+    "id": "venison-stir-fry-with-snap-peas-and-ginger",
+    "title": "Venison Stir Fry With Snap Peas And Ginger",
+    "filename": "venison-stir-fry-with-snap-peas-and-ginger.html"
   },
   {
-    "id": "20260483",
-    "date": "April 25, 2026",
-    "title": "Smoked Steelhead Trout Dip"
+    "id": "venison-tacos-with-pineapple-salsa",
+    "title": "Venison Tacos With Pineapple Salsa",
+    "filename": "venison-tacos-with-pineapple-salsa.html"
   },
   {
-    "id": "20260484",
-    "date": "April 25, 2026",
-    "title": "Smoked Venison Jerky \u2014 Teriyaki Style"
+    "id": "walleye-au-gratin",
+    "title": "Walleye Au Gratin",
+    "filename": "walleye-au-gratin.html"
   },
   {
-    "id": "20260485",
-    "date": "April 25, 2026",
-    "title": "Smoked Wild Mushrooms"
+    "id": "walleye-fish-tacos-with-chipotle-cream",
+    "title": "Walleye Fish Tacos With Chipotle Cream",
+    "filename": "walleye-fish-tacos-with-chipotle-cream.html"
   },
   {
-    "id": "20260486",
-    "date": "April 25, 2026",
-    "title": "Southern Fried Rabbit"
+    "id": "wild-boar-bacon-smash-burger",
+    "title": "Wild Boar Bacon Smash Burger",
+    "filename": "wild-boar-bacon-smash-burger.html"
   },
   {
-    "id": "20260487",
-    "date": "April 25, 2026",
-    "title": "Venison Curry with Sweet Potato"
+    "id": "wild-boar-chorizo-and-eggs",
+    "title": "Wild Boar Chorizo And Eggs",
+    "filename": "wild-boar-chorizo-and-eggs.html"
   },
   {
-    "id": "20260488",
-    "date": "April 25, 2026",
-    "title": "Venison Italian Sub"
+    "id": "wild-boar-curry-with-coconut-milk",
+    "title": "Wild Boar Curry With Coconut Milk",
+    "filename": "wild-boar-curry-with-coconut-milk.html"
   },
   {
-    "id": "20260489",
-    "date": "April 25, 2026",
-    "title": "Venison Mushroom Stroganoff"
+    "id": "wild-boar-osso-buco-with-gremolata",
+    "title": "Wild Boar Osso Buco With Gremolata",
+    "filename": "wild-boar-osso-buco-with-gremolata.html"
   },
   {
-    "id": "20260490",
-    "date": "April 25, 2026",
-    "title": "Venison Potato Soup"
+    "id": "wild-boar-pozole-rojo",
+    "title": "Wild Boar Pozole Rojo",
+    "filename": "wild-boar-pozole-rojo.html"
   },
   {
-    "id": "20260491",
-    "date": "April 25, 2026",
-    "title": "Venison Salisbury Steak"
+    "id": "wild-boar-ragu-with-pappardelle",
+    "title": "Wild Boar Ragu With Pappardelle",
+    "filename": "wild-boar-ragu-with-pappardelle.html"
   },
   {
-    "id": "20260492",
-    "date": "April 25, 2026",
-    "title": "Venison Stew with Root Vegetables"
-  },
-  {
-    "id": "20260493",
-    "date": "April 25, 2026",
-    "title": "Venison Stir-Fry with Snap Peas and Ginger"
-  },
-  {
-    "id": "20260494",
-    "date": "April 25, 2026",
-    "title": "Venison Tacos with Pineapple Salsa"
-  },
-  {
-    "id": "20260495",
-    "date": "April 25, 2026",
-    "title": "Walleye Au Gratin"
-  },
-  {
-    "id": "20260496",
-    "date": "April 25, 2026",
-    "title": "Walleye Fish Tacos with Chipotle Cream"
-  },
-  {
-    "id": "20260497",
-    "date": "April 25, 2026",
-    "title": "Wild Boar Chorizo and Eggs"
-  },
-  {
-    "id": "20260498",
-    "date": "April 25, 2026",
-    "title": "Wild Boar Pozole Rojo"
-  },
-  {
-    "id": "20260499",
-    "date": "April 25, 2026",
-    "title": "Wild Boar Ragu with Pappardelle"
+    "id": "wild-boar-rinds-cracklings",
+    "title": "Wild Boar Rinds Cracklings",
+    "filename": "wild-boar-rinds-cracklings.html"
   }
 ]
