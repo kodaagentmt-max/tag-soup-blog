@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag Soup — Wild Game & Outdoor Recipes</title>
+    <link>https://tagsoup.blog/</link>
+    <description>Daily wild game recipes, outdoor cooking tips, and game-day meals from Tag Soup.</description>
+    <language>en-us</language>
+    <atom:link href="https://kodaagentmt-max.github.io/tag-soup-blog/rss.xml" rel="self"/>
+    <lastBuildDate>Sat, 25 Apr 2026 13:30:00 MDT</lastBuildDate>
+
+
+    <item>
+
+    <item>
+      <title>Grilled Bison Ribeye with Chimichurri</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/posts/recipes-20260429.html</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/posts/recipes-20260429.html</guid>
+      <pubDate>Wed, 29 Apr 2026 23:10:15 MDT</pubDate>
+      <description><![CDATA[Bison ribeye with bright chimichurri. Stripped simple, no sauce needed.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/campfire-chili.jpg" type="image/jpeg" length="100000"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/campfire-chili.jpg" type="image/jpeg" medium="image"/>
+    </item>
+
+
+    <item>
+      <title>Dutch Oven Campfire Chili — 5 Hours, Worth the Wait</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/posts/recipes-20260426.html</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/posts/recipes-20260426.html</guid>
+      <pubDate>Sun, 26 Apr 2026 11:18:55 MDT</pubDate>
+      <description><![CDATA[Five hours over coals transforms tough elk shoulder into something that falls apart at the touch of a fork.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/bison-steak.jpg" type="image/jpeg" length="100000"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/bison-steak.jpg" type="image/jpeg" medium="image"/>
+    </item>
+
+
+    <item>
+      <title>Elk Bolognese Over Hand-Cut Noodles</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/posts/recipes-20260426.html</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/posts/recipes-20260426.html</guid>
+      <pubDate>Sun, 26 Apr 2026 11:09:46 MDT</pubDate>
+      <description><![CDATA[Thin-cut venison backstrap, smoke-low and slow, finished with a teriyaki glaze.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/duck-confit.jpg" type="image/jpeg" length="100000"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/duck-confit.jpg" type="image/jpeg" medium="image"/>
+    </item>
+
+      <title>Smoked Venison Jerky</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/posts/smoked-venison-jerky.html</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/posts/smoked-venison-jerky.html</guid>
+      <pubDate>Sat, 25 Apr 2026 13:30:00 MDT</pubDate>
+      <description><![CDATA[Thin-cut venison backstrap, smoke-low and slow, finished with a teriyaki glaze. This isn't the gas station stuff — this is the jerky worth getting up early for.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/smoked-jerky.jpg" type="image/jpeg" length="75807"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/smoked-jerky.jpg" type="image/jpeg" medium="image"/>
+    </item>
+
+    <item>
+      <title>Elk Bolognese Over Hand-Cut Noodles</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/posts/elk-bolognese.html</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/posts/elk-bolognese.html</guid>
+      <pubDate>Sat, 25 Apr 2026 09:00:00 MDT</pubDate>
+      <description><![CDATA[A hearty, old-world pasta built for cold nights after a long day in the field. Ground elk shoulder melts into a rich, deeply flavored sauce that rivals any beef version.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/elk-bolognese.jpg" type="image/jpeg" length="111161"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/elk-bolognese.jpg" type="image/jpeg" medium="image"/>
+    </item>
+
+    <item>
+      <title>Dutch Oven Campfire Chili — 5 Hours, Worth the Wait</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/</guid>
+      <pubDate>Fri, 24 Apr 2026 09:00:00 MDT</pubDate>
+      <description><![CDATA[Five hours over coals transforms tough elk shoulder into something that falls apart at the touch of a fork. This dutch oven campfire chili is the ultimate field-to-table meal.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/campfire-chili.jpg" type="image/jpeg" length="85289"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/campfire-chili.jpg" type="image/jpeg" medium="image"/>
+    </item>
+
+    <item>
+      <title>Bison Steak Frites with Herb Butter</title>
+      <link>https://kodaagentmt-max.github.io/tag-soup-blog/</link>
+      <guid isPermaLink="true">https://kodaagentmt-max.github.io/tag-soup-blog/</guid>
+      <pubDate>Thu, 23 Apr 2026 09:00:00 MDT</pubDate>
+      <description><![CDATA[Thick-cut bison sirloin, screaming hot cast iron, compound herb butter melting over the top. This is the kind of meal that makes your whole camp sit up and pay attention.]]></description>
+      <enclosure url="https://kodaagentmt-max.github.io/tag-soup-blog/images/bison-steak.jpg" type="image/jpeg" length="108894"/>
+      <media:content url="https://kodaagentmt-max.github.io/tag-soup-blog/images/bison-steak.jpg" type="image/jpeg" medium="image"/>
+    </item>
+  </channel>
+</rss>

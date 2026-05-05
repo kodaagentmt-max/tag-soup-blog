@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag Soup — Wild Game & Outdoor Recipes</title>
+  <meta name="description" content="Daily wild game recipes, outdoor cooking tips, and game-day meals from Tag Soup.">
+  <meta property="og:image" content="https://kodaagentmt-max.github.io/tag-soup-blog/images/campfire-chili.jpg">
+  <meta property="og:image:width" content="940">
+  <meta property="og:image:height" content="650">
+  <meta property="og:title" content="Tag Soup — Wild Game & Outdoor Recipes">
+  <meta property="og:type" content="website">
+  <link rel="alternate" type="application/rss+xml" title="Tag Soup RSS" href="rss.xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #0f0a04; --surface: #1a1108; --card: #251808; --border: #3a2510; --accent: #e87820; --gold: #f5c518; --text: #f0e0c0; --muted: #9a8060; --white: #fff; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--gold); }
+    img { max-width: 100%; }
+    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 40px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .topbar-brand { display: flex; align-items: center; gap: 10px; }
+    .topbar-brand img { height: 42px; width: auto; }
+    .topbar-brand .name { font-weight: 700; font-size: 17px; color: var(--white); letter-spacing: 0.5px; }
+    .topbar-brand .name span { color: var(--accent); }
+    .topbar-right { display: flex; align-items: center; gap: 16px; }
+    .topbar-right a { font-size: 13px; font-weight: 500; color: var(--muted); }
+    .topbar-right a:hover { color: var(--accent); }
+    .btn-rss { background: var(--accent); color: #000; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 4px; }
+    .hero { background: linear-gradient(135deg, var(--surface) 0%, #0f0804 100%); border-bottom: 1px solid var(--border); padding: 70px 40px; text-align: center; }
+    .hero-logo { height: 80px; margin-bottom: 20px; border-radius: 16px; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: 52px; font-weight: 700; color: var(--white); letter-spacing: -1px; margin-bottom: 8px; }
+    .hero h1 em { color: var(--accent); font-style: italic; }
+    .hero p { font-size: 17px; color: var(--muted); font-weight: 400; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 50px 40px; }
+    .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 14px; }
+    .section-head h2 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--white); }
+    .posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+    .post-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: all 0.2s; }
+    .post-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .post-thumb { height: 180px; overflow: hidden; background: #2a1a08; }
+    .post-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .post-body { padding: 18px; }
+    .post-tag { font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent); font-weight: 700; margin-bottom: 6px; display: block; }
+    .post-title { font-size: 15px; font-weight: 600; color: var(--white); line-height: 1.4; display: block; margin-bottom: 8px; }
+    .post-date { font-size: 12px; color: var(--muted); }
+    .footer { text-align: center; padding: 40px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); margin-top: 60px; }
+    @media (max-width: 600px) { .topbar { padding: 0 20px; } .hero { padding: 40px 20px; } .hero h1 { font-size: 36px; } .container { padding: 30px 20px; } }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-brand">
+      <img src="images/logo.png" alt="Tag Soup" onerror="this.style.display='none'">
+      <div class="name">Tag <span>Soup</span></div>
+    </div>
+    <div class="topbar-right">
+      <a href="rss.xml">RSS Feed</a>
+    </div>
+  </div>
+  <div class="hero">
+    <h1>Wild Game & <em>Outdoor Cooking</em></h1>
+    <p>Daily recipes from the field — elk, venison, bison, wildfowl, and more.</p>
+  </div>
+  <div class="container">
+    <div class="section-head">
+      <h2>All Recipes (99)</h2>
+    </div>
+    <div class="posts-grid">
+
+      <div class="post-card">
+        <a href="posts/elk-sloppy-joes-with-pickled-jalapenos.html">
+          <div class="post-thumb"><img src="../images/elk-sloppy-joes.jpg" alt="Elk Sloppy Joes with Pickled Jalapenos"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Sloppy Joes with Pickled Jalapenos</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-tamales-with-red-chile-sauce.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Elk Tamales with Red Chile Sauce"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Tamales with Red Chile Sauce</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-shawarma-plate.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Elk Shawarma Plate"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Shawarma Plate</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-green-chile-stew.html">
+          <div class="post-thumb"><img src="../images/elk-green-chile-stew.jpg" alt="Elk Green Chile Stew"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Green Chile Stew</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-backstrap-with-wild-mushroom-cream-sauce.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Elk Backstrap with Wild Mushroom Cream Sauce"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Backstrap with Wild Mushroom Cream Sauce</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-chili-colorado.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Elk Chili Colorado"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Chili Colorado</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-meatballs-in-tomato-basil-sauce.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Elk Meatballs in Tomato Basil Sauce"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Meatballs in Tomato Basil Sauce</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-rueben-sandwich.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Elk Rueben Sandwich"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Rueben Sandwich</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/elk-tacos-with-roasted-salsa-verde.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Elk Tacos with Roasted Salsa Verde"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Elk Tacos with Roasted Salsa Verde</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-elk-summer-sausage.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Smoked Elk Summer Sausage"></div>
+          <div class="post-body">
+            <span class="post-tag">Elk</span>
+            <span class="post-title">Smoked Elk Summer Sausage</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-stew-with-root-vegetables.html">
+          <div class="post-thumb"><img src="../images/smoked-jerky.jpg" alt="Venison Stew with Root Vegetables"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Stew with Root Vegetables</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-venison-jerky-teriyaki-style.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Smoked Venison Jerky — Teriyaki Style"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Smoked Venison Jerky — Teriyaki Style</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-stir-fry-with-snap-peas-and-ginger.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Venison Stir-Fry with Snap Peas and Ginger"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Stir-Fry with Snap Peas and Ginger</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-tacos-with-pineapple-salsa.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Venison Tacos with Pineapple Salsa"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Tacos with Pineapple Salsa</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/slow-cooker-venison-roast.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Slow-Cooker Venison Roast"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Slow-Cooker Venison Roast</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-salisbury-steak.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Venison Salisbury Steak"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Salisbury Steak</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-italian-sub.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Venison Italian Sub"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Italian Sub</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-potato-soup.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Venison Potato Soup"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Potato Soup</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-curry-with-sweet-potato.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Venison Curry with Sweet Potato"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Curry with Sweet Potato</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-mushroom-stroganoff.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Venison Mushroom Stroganoff"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Mushroom Stroganoff</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-neck-ragu-with-rigatoni.html">
+          <div class="post-thumb"><img src="../images/venison-ragu.jpg" alt="Venison Neck Ragu with Rigatoni"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Neck Ragu with Rigatoni</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-fried-pickles-with-sriracha-aioli.html">
+          <div class="post-thumb"><img src="../images/venison-fried-pickles.jpg" alt="Venison Fried Pickles with Sriracha Aioli"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Fried Pickles with Sriracha Aioli</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-liver-and-onions.html">
+          <div class="post-thumb"><img src="../images/venison-liver-onions.jpg" alt="Venison Liver and Onions"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Liver and Onions</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-pastrami-on-rye.html">
+          <div class="post-thumb"><img src="../images/venison-pastrami-rye.jpg" alt="Venison Pastrami on Rye"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Pastrami on Rye</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-chorizo-breakfast-tacos.html">
+          <div class="post-thumb"><img src="../images/venison-breakfast-tacos.jpg" alt="Venison Chorizo Breakfast Tacos"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Chorizo Breakfast Tacos</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/venison-bibimbap.html">
+          <div class="post-thumb"><img src="../images/venison-bibimbap.jpg" alt="Venison Bibimbap"></div>
+          <div class="post-body">
+            <span class="post-tag">Venison</span>
+            <span class="post-title">Venison Bibimbap</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-steak-frites-with-herb-butter.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Bison Steak Frites with Herb Butter"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison Steak Frites with Herb Butter</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-bourguignon.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Bison Bourguignon"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison Bourguignon</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-burgers-with-caramelized-onions-and-gruyère.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Bison Burgers with Caramelized Onions and Gruyère"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison Burgers with Caramelized Onions and Gruyère</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-french-dip-sandwiches.html">
+          <div class="post-thumb"><img src="../images/bison-french-dip.jpg" alt="Bison French Dip Sandwiches"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison French Dip Sandwiches</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-beefaroni.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Bison Beefaroni"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison Beefaroni</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-bison-brisket.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Smoked Bison Brisket"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Smoked Bison Brisket</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-osso-buco.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Bison Osso Buco"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison Osso Buco</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-enchiladas-with-roasted-poblano-sauce.html">
+          <div class="post-thumb"><img src="../images/bison-enchiladas.jpg" alt="Bison Enchiladas with Roasted Poblano Sauce"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison Enchiladas with Roasted Poblano Sauce</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-bison-baby-back-ribs.html">
+          <div class="post-thumb"><img src="../images/bison-baby-back-ribs.jpg" alt="Smoked Bison Baby Back Ribs"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Smoked Bison Baby Back Ribs</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/bison-tagliatelle-with-brown-butter-and-sage.html">
+          <div class="post-thumb"><img src="../images/bison-tagliatelle.jpg" alt="Bison Tagliatelle with Brown Butter and Sage"></div>
+          <div class="post-body">
+            <span class="post-tag">Bison</span>
+            <span class="post-title">Bison Tagliatelle with Brown Butter and Sage</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/cast-iron-wild-boar-ribs.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Cast Iron Wild Boar Ribs"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Cast Iron Wild Boar Ribs</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/wild-boar-ragu-with-pappardelle.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Wild Boar Ragu with Pappardelle"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Wild Boar Ragu with Pappardelle</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/wild-boar-chorizo-and-eggs.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Wild Boar Chorizo and Eggs"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Wild Boar Chorizo and Eggs</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/boar-smoked-sausage-with-peppers-and-onions.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Boar Smoked Sausage with Peppers and Onions"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Boar Smoked Sausage with Peppers and Onions</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/wild-boar-pozole-rojo.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Wild Boar Pozole Rojo"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Wild Boar Pozole Rojo</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/wild-boar-bacon-smash-burger.html">
+          <div class="post-thumb"><img src="../images/wild-boar-burger.jpg" alt="Wild Boar Bacon Smash Burger"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Wild Boar Bacon Smash Burger</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/wild-boar-osso-buco-with-gremolata.html">
+          <div class="post-thumb"><img src="../images/wild-boar-osso-buco.jpg" alt="Wild Boar Osso Buco with Gremolata"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Wild Boar Osso Buco with Gremolata</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/wild-boar-curry-with-coconut-milk.html">
+          <div class="post-thumb"><img src="../images/wild-boar-curry.jpg" alt="Wild Boar Curry with Coconut Milk"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Wild Boar Curry with Coconut Milk</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/wild-boar-rinds-cracklings.html">
+          <div class="post-thumb"><img src="../images/wild-boar-cracklings.jpg" alt="Wild Boar Rinds Cracklings"></div>
+          <div class="post-body">
+            <span class="post-tag">Wild Boar</span>
+            <span class="post-title">Wild Boar Rinds Cracklings</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/duck-confit-tacos-with-pickled-onions.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Duck Confit Tacos with Pickled Onions"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Duck Confit Tacos with Pickled Onions</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-goose-breast-with-peach-glaze.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Smoked Goose Breast with Peach Glaze"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Smoked Goose Breast with Peach Glaze</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/duck-fried-rice.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Duck Fried Rice"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Duck Fried Rice</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/goose-gumbo.html">
+          <div class="post-thumb"><img src="../images/smoked-jerky.jpg" alt="Goose Gumbo"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Goose Gumbo</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/cast-iron-duck-breast-with-cherry-reduction.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Cast Iron Duck Breast with Cherry Reduction"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Cast Iron Duck Breast with Cherry Reduction</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-duck-eggs-benedict.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Smoked Duck Eggs Benedict"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Smoked Duck Eggs Benedict</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/moulard-duck-prosciutto.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Moulard Duck Prosciutto"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Moulard Duck Prosciutto</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/canadian-goose-confit-legs.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Canadian Goose Confit Legs"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Canadian Goose Confit Legs</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/teal-duck-poppers-with-bacon.html">
+          <div class="post-thumb"><img src="../images/teal-duck-poppers.jpg" alt="Teal Duck Poppers with Bacon"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Teal Duck Poppers with Bacon</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/merganser-gumbo-with-duck-andouille.html">
+          <div class="post-thumb"><img src="../images/merganser-gumbo.jpg" alt="Merganser Gumbo with Duck Andouille"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Merganser Gumbo with Duck Andouille</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/spoonbill-duck-breast-with-plum-sauce.html">
+          <div class="post-thumb"><img src="../images/duck-breast-plum.jpg" alt="Spoonbill Duck Breast with Plum Sauce"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Spoonbill Duck Breast with Plum Sauce</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/duck-egg-frittata-with-morels-and-ramps.html">
+          <div class="post-thumb"><img src="../images/duck-egg-frittata.jpg" alt="Duck Egg Frittata with Morels and Ramps"></div>
+          <div class="post-body">
+            <span class="post-tag">Wildfowl</span>
+            <span class="post-title">Duck Egg Frittata with Morels and Ramps</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/southern-fried-rabbit.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Southern Fried Rabbit"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Southern Fried Rabbit</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/rabbit-cacciatore.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Rabbit Cacciatore"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Rabbit Cacciatore</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-rabbit-with-apricot-mustard-glaze.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Smoked Rabbit with Apricot Mustard Glaze"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Smoked Rabbit with Apricot Mustard Glaze</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/rabbit-and-dumplings.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Rabbit and Dumplings"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Rabbit and Dumplings</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/rabbit-tikka-masala.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Rabbit Tikka Masala"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Rabbit Tikka Masala</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/pheasant-pot-pie.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Pheasant Pot Pie"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Pheasant Pot Pie</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-pheasant-breast-with-gouda.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Smoked Pheasant Breast with Gouda"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Smoked Pheasant Breast with Gouda</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/pheasant-fried-rice.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Pheasant Fried Rice"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Pheasant Fried Rice</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/roasted-pheasant-with-bacon-and-thyme.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Roasted Pheasant with Bacon and Thyme"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Roasted Pheasant with Bacon and Thyme</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/grouse-piccata-with-capers-and-lemon.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Grouse Piccata with Capers and Lemon"></div>
+          <div class="post-body">
+            <span class="post-tag">Small Game</span>
+            <span class="post-title">Grouse Piccata with Capers and Lemon</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/walleye-fish-tacos-with-chipotle-cream.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Walleye Fish Tacos with Chipotle Cream"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Walleye Fish Tacos with Chipotle Cream</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/campfire-cedar-plank-salmon.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Campfire Cedar Plank Salmon"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Campfire Cedar Plank Salmon</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/pan-fried-trout-with-brown-butter-and-almonds.html">
+          <div class="post-thumb"><img src="../images/smoked-jerky.jpg" alt="Pan-Fried Trout with Brown Butter and Almonds"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Pan-Fried Trout with Brown Butter and Almonds</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-steelhead-trout-dip.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Smoked Steelhead Trout Dip"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Smoked Steelhead Trout Dip</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/walleye-au-gratin.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Walleye Au Gratin"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Walleye Au Gratin</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/perch-meunière-with-parsley-and-lemon.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Perch Meunière with Parsley and Lemon"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Perch Meunière with Parsley and Lemon</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/muskie-fish-cakes-with-cajun-remoulade.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Muskie Fish Cakes with Cajun Remoulade"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Muskie Fish Cakes with Cajun Remoulade</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/carp-with-lemon-dill-beurre-blanc.html">
+          <div class="post-thumb"><img src="../images/carp-beurre-blanc.jpg" alt="Carp with Lemon-Dill Beurre Blanc"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Carp with Lemon-Dill Beurre Blanc</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/catfish-po-boy-with-remoulade.html">
+          <div class="post-thumb"><img src="../images/catfish-po-boy.jpg" alt="Catfish Po' Boy with Remoulade"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Catfish Po' Boy with Remoulade</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/sturgeon-kedgeree.html">
+          <div class="post-thumb"><img src="../images/sturgeon-kedgeree.jpg" alt="Sturgeon Kedgeree"></div>
+          <div class="post-body">
+            <span class="post-tag">Fish</span>
+            <span class="post-title">Sturgeon Kedgeree</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-campfire-chili-5-hours-worth-the-wait.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Dutch Oven Campfire Chili — 5 Hours, Worth the Wait"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Dutch Oven Campfire Chili — 5 Hours, Worth the Wait</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/campfire-flatbread-with-wild-boar-sausage.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Campfire Flatbread with Wild Boar Sausage"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Campfire Flatbread with Wild Boar Sausage</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/campfire-breakfast-burritos.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Campfire Breakfast Burritos"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Campfire Breakfast Burritos</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/campfire-shrimp-boil.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Campfire Shrimp Boil"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Campfire Shrimp Boil</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/ember-roasted-acorn-squash-with-sage-butter.html">
+          <div class="post-thumb"><img src="../images/acorn-squash-sage.jpg" alt="Ember-Roasted Acorn Squash with Sage Butter"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Ember-Roasted Acorn Squash with Sage Butter</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/ember-roasted-whole-duck.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Ember-Roasted Whole Duck"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Ember-Roasted Whole Duck</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-sourdough-bread.html">
+          <div class="post-thumb"><img src="../images/smoked-jerky.jpg" alt="Dutch Oven Sourdough Bread"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Dutch Oven Sourdough Bread</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-cinnamon-rolls.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Dutch Oven Cinnamon Rolls"></div>
+          <div class="post-body">
+            <span class="post-tag">Campfire</span>
+            <span class="post-title">Dutch Oven Cinnamon Rolls</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-beef-stew.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Dutch Oven Beef Stew"></div>
+          <div class="post-body">
+            <span class="post-tag">Dutch Oven</span>
+            <span class="post-title">Dutch Oven Beef Stew</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-cornbread.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Dutch Oven Cornbread"></div>
+          <div class="post-body">
+            <span class="post-tag">Dutch Oven</span>
+            <span class="post-title">Dutch Oven Cornbread</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-pot-roast-with-red-wine-and-rosemary.html">
+          <div class="post-thumb"><img src="../images/venison-stew.jpg" alt="Dutch Oven Pot Roast with Red Wine and Rosemary"></div>
+          <div class="post-body">
+            <span class="post-tag">Dutch Oven</span>
+            <span class="post-title">Dutch Oven Pot Roast with Red Wine and Rosemary</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-apple-cinnamon-cobbler.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Dutch Oven Apple Cinnamon Cobbler"></div>
+          <div class="post-body">
+            <span class="post-tag">Dutch Oven</span>
+            <span class="post-title">Dutch Oven Apple Cinnamon Cobbler</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-elk-summer-sausage.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Smoked Elk Summer Sausage"></div>
+          <div class="post-body">
+            <span class="post-tag">Smoker</span>
+            <span class="post-title">Smoked Elk Summer Sausage</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-elk-leg-roast.html">
+          <div class="post-thumb"><img src="../images/bison-steak.jpg" alt="Smoked Elk Leg Roast"></div>
+          <div class="post-body">
+            <span class="post-tag">Smoker</span>
+            <span class="post-title">Smoked Elk Leg Roast</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-duck-breast-with-maple-and-black-pepper.html">
+          <div class="post-thumb"><img src="../images/elk-bolognese.jpg" alt="Smoked Duck Breast with Maple and Black Pepper"></div>
+          <div class="post-body">
+            <span class="post-tag">Smoker</span>
+            <span class="post-title">Smoked Duck Breast with Maple and Black Pepper</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-pheasant-with-sage-and-apple.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Smoked Pheasant with Sage and Apple"></div>
+          <div class="post-body">
+            <span class="post-tag">Smoker</span>
+            <span class="post-title">Smoked Pheasant with Sage and Apple</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-wild-mushrooms.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Smoked Wild Mushrooms"></div>
+          <div class="post-body">
+            <span class="post-tag">Smoker</span>
+            <span class="post-title">Smoked Wild Mushrooms</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/cast-iron-campfire-beans.html">
+          <div class="post-thumb"><img src="../images/duck-confit.jpg" alt="Cast Iron Campfire Beans"></div>
+          <div class="post-body">
+            <span class="post-tag">Sides</span>
+            <span class="post-title">Cast Iron Campfire Beans</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/cast-iron-campfire-cornbread-with-honey-butter.html">
+          <div class="post-thumb"><img src="../images/smoked-jerky.jpg" alt="Cast Iron Campfire Cornbread with Honey Butter"></div>
+          <div class="post-body">
+            <span class="post-tag">Sides</span>
+            <span class="post-title">Cast Iron Campfire Cornbread with Honey Butter</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/smoked-wild-mushrooms.html">
+          <div class="post-thumb"><img src="../images/smoked-jerky.jpg" alt="Smoked Wild Mushrooms"></div>
+          <div class="post-body">
+            <span class="post-tag">Sides</span>
+            <span class="post-title">Smoked Wild Mushrooms</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/campfire-grilled-street-corn.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Campfire Grilled Street Corn"></div>
+          <div class="post-body">
+            <span class="post-tag">Sides</span>
+            <span class="post-title">Campfire Grilled Street Corn</span>
+          </div>
+        </a>
+      </div>
+      <div class="post-card">
+        <a href="posts/dutch-oven-sourdough-bread.html">
+          <div class="post-thumb"><img src="../images/campfire-chili.jpg" alt="Dutch Oven Sourdough Bread"></div>
+          <div class="post-body">
+            <span class="post-tag">Sides</span>
+            <span class="post-title">Dutch Oven Sourdough Bread</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    🔥 Tag Soup — Wild Game & Outdoor Cooking
+  </div>
+</body>
+</html>
